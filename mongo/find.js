@@ -4,7 +4,7 @@
  * skip 跳过多少条
  * query 查询条件
  * paging 分页
- * cb 回掉
+ * cb 回调
  */
 const connect = require('./connect');
 module.exports = function(collectionName,query,paging,cb){
