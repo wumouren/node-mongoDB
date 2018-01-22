@@ -40,7 +40,7 @@ module.exports = function(collectionName,query,paging,cb){
   }
   connect(collectionName,(err,dbName,client) => {
     if(err){
-      console.log('服务器连接失败')
+      // console.log('服务器连接失败')
       callback(err,null)
       return
     }
