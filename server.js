@@ -42,7 +42,7 @@ server
   })
 })
 .get('/find',(req,res) => {
-  // console.log('客户端访问')
+  console.log('客户端访问')
   mongo.find('time',{},(err,result) => {
     if(err){
       // console.log(err);
