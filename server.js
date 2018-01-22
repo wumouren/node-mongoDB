@@ -43,7 +43,7 @@ server
 })
 .get('/find',(req,res) => {
   // console.log('客户端访问')
-  mongo.find('time',{id: 110},(err,result) => {
+  mongo.find('time',{},(err,result) => {
     if(err){
       // console.log(err);
       res.send('数据读取错误')
